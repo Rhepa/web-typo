@@ -1,7 +1,7 @@
 .content{
   width:800px; 
   height:900px; 
-  background: #C9C9D1;
+   background-image: linear-gradient(black, #C9C9D1);
   box-shadow: 30px 30px 30px -10px #7b7ba7;
   margin: auto;   
   position:relative; 
@@ -28,21 +28,26 @@
 /*START DATE*/
 .block3 {
   width:300px; 
-  height:250px; 
+  height:480px; 
   position:relative; 
-  background-color: whitesmoke; 
-  box-shadow: 20px 20px 0 -10px #7b7ba7;
+  background-image: linear-gradient(black, #8dbfbe);
+  box-shadow: 20px 0 0 -10px #7b7ba7;
   margin-top: 420px;
-  margin-left: 300px;
-  
+  margin-left: 300px; 
 }
 
 .date{
 font-size: 25px;
  margin-left: 20px;
  margin-right: 20px;
-  font-family: 'Nunito', sans-serif;
-  color: black;
+  font-family: 'Staatliches', cursive;
+  color: white;
+  animation: fadein 2.5s ease-in-out;
+}
+
+@keyframes fadein {
+   0% {opacity: 0;}
+   100% {opacity: 1;}
 }
 /*END DATE*/
 
