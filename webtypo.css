@@ -4,7 +4,7 @@
   background-image: linear-gradient(#C9C9D1, #030a17);  
   position:relative;
   margin: auto; 
-  border: 1px solid black;
+  border: 10px solid black;
   }
 
 .content div{
@@ -128,7 +128,7 @@ font-size: 25px;
 
 .block11 {
   width:40px; 
-  height:350px; 
+  height:320px; 
   position:relative; 
   background-color: black; 
  bottom: 0px;
@@ -146,7 +146,7 @@ font-size: 25px;
 
 .block13 {
   width:40px; 
-  height:400px; 
+  height:300px; 
   position:relative; 
   background-color: whitesmoke; 
  bottom: 0px;
@@ -397,28 +397,39 @@ margin-left: 1020px;
 /*END T*/
 
 .comes{
-
   font-size: 50px;
           margin-bottom: 90px;
-            margin-top: 400px ; 
-            margin-left: 20px;             
+            margin-top: 380px ; 
+            margin-left: 300px; 
+            font-family: 'Lato', sans-serif; 
+              text-shadow: 10px 10px white;            
 }
 .after{
+          font-size: 50px;
+          margin-bottom: 90px;
+            margin-top: 380px ; 
+            margin-left: 680px; 
+            font-family: 'Lato', sans-serif;
+              text-shadow: 10px 10px white;  
+} 
 
-  
-            margin-top: 190px ; 
-            margin-left: 10px;   
-}
 .the{
-   margin-bottom: 90px;
-            margin-top: 220px ; 
-            margin-left: 100px;   
+  font-size: 50px;
+          margin-bottom: 90px;
+            margin-top: 380px ; 
+            margin-left: 1010px; 
+            font-family: 'Lato', sans-serif;
+              text-shadow: 10px 10px white;    
 }
 .envi{
-    margin-bottom: 90px;
-            margin-top: 260px ; 
-            margin-left: 100px; 
-}
+    font-size: 50px;
+          margin-bottom: 90px;
+            margin-top: 550px ; 
+            margin-left: 500px; 
+            font-family: 'Lato', sans-serif; 
+            text-shadow: 10px 10px black;  
+            color: white;
+          }
 
 .subtitle{
    margin-bottom: 90px;
