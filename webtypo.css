@@ -11,20 +11,27 @@
   position: absolute;
 }
 
-/*.block1 {
-  width:1330px; 
-  height:450px; 
-  background-color: #8dbfbe;  
+.block1 {
+    width:200px; 
+  height:200px;
+  background-color: white;  
+  transform: rotate(45deg);
+    margin-left: 80px;
+    margin-top: 360px;
+    opacity: 0.5;
 }
+    
 
 .block2 {
-  width:400px; 
-  height:450px; 
+  width:150px; 
+  height:150px; 
   position:relative; 
-  background-color: yellowgreen; 
+  background-color: whitesmoke; 
   margin-left: 400px; 
   margin-top: 250px;
-}*/
+   transform: rotate(15deg);
+   opacity: 0.5;
+}
 /*START DATE*/
 /*.block3 {
   width:300px; 
@@ -426,7 +433,7 @@ margin-left: 1020px;
           margin-bottom: 90px;
             margin-top: 550px ; 
             margin-left: 500px; 
-            font-family: 'Lato', sans-serif; 
+            font-family: 'Righteous', cursive; 
             text-shadow: 10px 10px black;  
             color: white;
           }
