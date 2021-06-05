@@ -25,12 +25,13 @@
   margin-left: 400px; 
   margin-top: 250px;
 }
-
+/*START DATE*/
 .block3 {
   width:300px; 
   height:250px; 
   position:relative; 
   background-color: whitesmoke; 
+  box-shadow: 20px 20px 0 -10px #7b7ba7;
   margin-top: 420px;
   margin-left: 300px;
   
@@ -43,8 +44,19 @@ font-size: 25px;
   font-family: 'Nunito', sans-serif;
   color: black;
 }
+/*END DATE*/
 
-
+/*START TICKET*/
+.ticket{
+  font-size: 20px;
+ margin-left: 310px;
+  margin-right: 10px;
+ margin-top: 680px;
+ margin-right: 10px;
+  font-family: 'Nunito', sans-serif;
+  color: black;
+}
+/*END TICKET*/
 
 
 /*START:   STRAIGHT LINES THAT SURROUNDS THE DATE*/
@@ -54,7 +66,7 @@ font-size: 25px;
   position:relative; 
   background-color: black; 
  bottom: 0px;
- margin-left: 36%;
+ margin-left: 290px;
 }
 
 .block5 {
@@ -63,23 +75,23 @@ font-size: 25px;
   position:relative; 
   background-color: black; 
  bottom: 0px;
- margin-left: 35%;
+ margin-left: 280px;
 }
 .block6 {
  width:520px; 
  height:5px; 
  position:relative; 
  background-color: black; 
- margin-top: 50%;
- margin-left: 35%;
+ margin-top: 400px;
+ margin-left: 280px;
 }
 .block7 {
  width:520px; 
  height:5px; 
  position:relative; 
  background-color: black; 
- margin-top: 51%;
- margin-left: 35%;
+ margin-top: 410px;
+ margin-left: 280px;
 }
 
 /* END:  STRAIGHT LINES THAT SURROUNDS THE DATE*/
@@ -119,6 +131,24 @@ font-size: 25px;
   background-color: black; 
  bottom: 0px;
  margin-left: 28%;
+}
+
+.block12 {
+  width:220px; 
+  height:100px; 
+  position:relative; 
+  background-color: black; 
+ bottom: 0px;
+ margin-left: 320px;
+}
+
+.block13 {
+  width:40px; 
+  height:400px; 
+  position:relative; 
+  background-color: black; 
+ bottom: 0px;
+ margin-left: 620px;
 }
 
 
