@@ -1,29 +1,43 @@
- * { 
-    margin: 0;
-    padding: 0;
+.container{
+  width:800px; 
+  height:900px; 
+  background: #C9C9D1;
+  box-shadow: 30px 30px 30px -10px #7b7ba7;
+  margin: auto;
+  
+  }
+
+.block1 {
+  width:400px; 
+  height:450px; 
+  
+  position:relative; 
+  background-color: #8dbfbe;  
+}
+.block1 div{
+  position: absolute;
 }
 
-body {
-    margin: 100px; /* Add spacing around the entire page */ 
-    font-size: 12px; /* Setting baseline font size */ 
+.block2 {
+  width:400px; 
+  height:450px; 
+  position:relative; 
+  background-color: yellowgreen; 
+  margin-left: 400px; 
+  margin-bottom: 200px;
 }
 
-h1 {
-    font-size: 4em;
-}
-h2 {
-    font-size: 3em;
-}
-p {
-    font-size: 2em;
-    line-height: 1.5em;
+
+.what{
+
+   font-size: 150px;
+   font-family: 'Nunito', sans-serif;
+         
 }
 
-.grid{
-            width: 40%; /* Set the width of the template to 60% of the viewport. */
-            margin: auto; /* Center align the template by adding auto margins to the left and right */
-        }
-
-   .title {
-            margin-bottom: 100px; /* Add spacing to the bottom of the title div */
-        }
+.comes{
+ margin-bottom: 90px;
+            margin-top: 50px ; 
+            margin-right: 100px; 
+            
+}
