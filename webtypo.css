@@ -106,6 +106,24 @@ font-size: 25px;
  bottom: 0px;
 }
 
+/* ANIMATION */
+.block8:hover {
+  animation: bouncing 1.5s ease-in-out ;
+}
+
+@keyframes bouncing {
+  0%,{transform:translateY(0);
+  }
+  25% {transform: translateY(-100px);
+  }
+  50% {transform: translateY(10px);
+  }
+  75% {transform: translateY(-30px);
+  }
+  100% {transform: translateY(0);
+  }
+}
+
 .block9 {
   width:90px; 
   height:150px; 
@@ -176,3 +194,4 @@ font-size: 25px;
             margin-right: 100px; 
             
 }
+
