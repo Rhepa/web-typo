@@ -107,21 +107,14 @@ font-size: 25px;
 }
 
 /* ANIMATION */
-.block8:hover {
-  animation: bouncing 1.5s ease-in-out ;
+.block8: hover{
+  animation: slideup 1.5s ease-in-out infinite;
 }
 
-@keyframes bouncing {
-  0%,{transform:translateY(0);
-  }
-  25% {transform: translateY(-100px);
-  }
-  50% {transform: translateY(10px);
-  }
-  75% {transform: translateY(-30px);
-  }
-  100% {transform: translateY(0);
-  }
+@keyframes slideup{
+   0%{bottom:-50px}
+  100%{bottom:0;}
+
 }
 
 .block9 {
