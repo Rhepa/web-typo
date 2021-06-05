@@ -17,15 +17,19 @@
   background-color: whitesmoke;
   padding: 15px 32px;
   text-align: center;
-  text-decoration: none;
-  font-size: 20;
-  margin: ;bottom:200px;
-  margin-left: 1000px;
+
+  font-size: 40px;
+  bottom:0px;
+  margin-bottom: 200px;
+  margin-left: 900px;
   cursor: pointer;
-  border-radius: 10px;
- animation: fadein 4s ease-in-out;
+  animation: fadein 4s ease-in-out;
+  font-family: 'Lato', sans-serif;
 }
 
+.button: hover{
+
+}
 /*START:  THIN BLOCK RECTANGLES*/
 .block4 {
   width:5px; 
@@ -171,14 +175,7 @@ opacity: 0.5;
    0% {opacity: 0;}
    100% {opacity: 1;}
 }
-
-
-@keyframes rotate{
-   0% {transform: rotate(0deg);}
-   50% {transform: rotate(90deg);}
-   100% {transform: rotate(180deg);}
-}
-  /*END ANIMATION*/
+/*END ANIMATION*/
 /*END:  BOTTOM BLOCKS*/
 
 /*START CUSTOM FONT "WHAT"*/
@@ -500,7 +497,7 @@ font-size: 20px;
   padding: 15px 30px;
   text-align: center;
   text-decoration: none;
-  font-size: 20;
+  font-size: 20px;
  font-family: 'PT Serif', serif;
   margin-bottom:120px;
  margin-top: 580px ;
@@ -513,7 +510,7 @@ font-size: 20px;
   padding: 15px 30px;
   text-align: center;
   text-decoration: none;
-  font-size: 20;
+  font-size: 15px;
  font-family: 'PT Serif', serif;
   margin-bottom:120px;
   bottom: 0px;
