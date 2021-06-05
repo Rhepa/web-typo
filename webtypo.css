@@ -12,16 +12,16 @@
 }
 
 .button{
-    background-color: #4CAF50;
-  border: none;
-  color: white;
+  background-color: whitesmoke;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: 20;
+  margin: ;bottom:200px;
+  margin-left: 1000px;
   cursor: pointer;
+  border-radius: 10px;
+ animation: fadein 4s ease-in-out;
 
 }
 .block1 {
@@ -78,10 +78,6 @@ font-size: 25px;
 }
 /*END TICKET*/
 
-@keyframes fadein {
-   0% {opacity: 0;}
-   100% {opacity: 1;}
-}
 /*END DATE*/
 
 
@@ -226,6 +222,12 @@ opacity: 0.5;
    100% {bottom:0px}
 
   }
+
+
+@keyframes fadein {
+   0% {opacity: 0;}
+   100% {opacity: 1;}
+}
   /*END ANIMATION*/
 /*END:  BOTTOM BLOCKS*/
 
@@ -422,7 +424,9 @@ margin-left: 1020px;
             margin-top: 380px ; 
             margin-left: 300px; 
             font-family: 'Lato', sans-serif; 
-              text-shadow: 10px 10px white;            
+              text-shadow: 10px 10px white;
+              animation: fadein 0.5s ease-in-out;
+            
 }
 .after{
           font-size: 50px;
@@ -430,7 +434,9 @@ margin-left: 1020px;
             margin-top: 380px ; 
             margin-left: 680px; 
             font-family: 'Lato', sans-serif;
-              text-shadow: 10px 10px white;  
+              text-shadow: 10px 10px white; 
+              animation: fadein 1s ease-in-out;
+ 
 } 
 
 .the{
@@ -439,7 +445,9 @@ margin-left: 1020px;
             margin-top: 380px ; 
             margin-left: 1010px; 
             font-family: 'Lato', sans-serif;
-              text-shadow: 10px 10px white;    
+              text-shadow: 10px 10px white;  
+              animation: fadein 1.5s ease-in-out;
+  
 }
 .envi{
     font-size: 50px;
@@ -449,6 +457,8 @@ margin-left: 1020px;
             font-family: 'Righteous', cursive; 
             text-shadow: 10px 10px black;  
             color: white;
+            animation: fadein 2s ease-in-out;
+
           }
 
 .subtitle{
