@@ -1,21 +1,20 @@
-.container{
+.content{
   width:800px; 
   height:900px; 
   background: #C9C9D1;
   box-shadow: 30px 30px 30px -10px #7b7ba7;
-  margin: auto;
-  
+  margin: auto;   
+  position:relative; 
   }
+
+.content div{
+  position: absolute;
+}
 
 .block1 {
   width:400px; 
   height:450px; 
-  
-  position:relative; 
   background-color: #8dbfbe;  
-}
-.block1 div{
-  position: absolute;
 }
 
 .block2 {
@@ -24,14 +23,114 @@
   position:relative; 
   background-color: yellowgreen; 
   margin-left: 400px; 
-  margin-bottom: 200px;
+  margin-top: 250px;
 }
+
+.block3 {
+  width:300px; 
+  height:250px; 
+  position:relative; 
+  background-color: whitesmoke; 
+  margin-top: 420px;
+  margin-left: 300px;
+  
+}
+
+.date{
+font-size: 25px;
+ margin-left: 20px;
+ margin-right: 20px;
+  font-family: 'Nunito', sans-serif;
+  color: black;
+}
+
+
+
+
+/*START:   STRAIGHT LINES THAT SURROUNDS THE DATE*/
+.block4 {
+  width:5px; 
+  height:490px; 
+  position:relative; 
+  background-color: black; 
+ bottom: 0px;
+ margin-left: 36%;
+}
+
+.block5 {
+  width:5px; 
+  height:500px; 
+  position:relative; 
+  background-color: black; 
+ bottom: 0px;
+ margin-left: 35%;
+}
+.block6 {
+ width:520px; 
+ height:5px; 
+ position:relative; 
+ background-color: black; 
+ margin-top: 50%;
+ margin-left: 35%;
+}
+.block7 {
+ width:520px; 
+ height:5px; 
+ position:relative; 
+ background-color: black; 
+ margin-top: 51%;
+ margin-left: 35%;
+}
+
+/* END:  STRAIGHT LINES THAT SURROUNDS THE DATE*/
+
+
+/*START:  BOTTOM BLOCKS*/
+.block8 {
+  width:70px; 
+  height:250px; 
+  position:relative; 
+  background-color: black; 
+ bottom: 0px;
+}
+
+.block9 {
+  width:90px; 
+  height:150px; 
+  position:relative; 
+  background-color: black; 
+ bottom: 0px;
+ margin-left: 10%;
+}
+
+.block10 {
+  width:20px; 
+  height:220px; 
+  position:relative; 
+  background-color: black; 
+ bottom: 0px;
+ margin-left: 22.5%;
+}
+
+.block11 {
+  width:40px; 
+  height:400px; 
+  position:relative; 
+  background-color: black; 
+ bottom: 0px;
+ margin-left: 28%;
+}
+
+
+/*END:  BOTTOM BLOCKS*/
 
 
 .what{
 
-   font-size: 150px;
+   font-size: 50px;
    font-family: 'Nunito', sans-serif;
+    margin-bottom: 90px ; 
+    margin-left: 20px;
          
 }
 
