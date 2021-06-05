@@ -1,18 +1,20 @@
 /*INDEX HTML PAGE*/
 
+/*LAYOUT*/
 .content{
   width:1330px; 
   height:1070px; 
   background-image: linear-gradient(#C9C9D1, #030a17);  
   position:relative;
   margin: auto; 
-   animation: fadein 0.5s ease-in;
-  }
-
+  animation: fadein 0.5s ease-in;
+}
 .content div{
   position: absolute;
 }
+/*END LAYOUT*/
 
+/*START BUTTON NEXT*/
 .button{
   background-color: whitesmoke;
   padding: 15px 32px;
@@ -26,27 +28,24 @@
   animation: fadein 4s ease-in-out;
   font-family: 'Lato', sans-serif;
 }
+/*END BUTTON NEXT*/
 
-.button: hover{
-
-}
 /*START:  THIN BLOCK RECTANGLES*/
 .block4 {
   width:5px; 
   height:490px; 
   position:relative; 
   background-color: black; 
- bottom: 0px;
- margin-left: 290px;
+  bottom: 0px;
+  margin-left: 290px;
 }
-
 .block5 {
   width:5px; 
   height:500px; 
   position:relative; 
   background-color: black; 
- bottom: 0px;
- margin-left: 280px;
+  bottom: 0px;
+  margin-left: 280px;
 }
 .block6 {
  width:520px; 
@@ -64,119 +63,107 @@
  margin-top: 750px;
  margin-left: 0px;
 }
-
 .block8 {
   width:70px; 
   height:250px; 
   position:relative; 
   background-color: black; 
- bottom: 0px;
+  bottom: 0px;
 }
-
 .block9 {
   width:90px; 
   height:150px; 
   position:relative; 
   background-color: white; 
- bottom: 0px;
- margin-left: 10%;
+  bottom: 0px;
+  margin-left: 10%;
 }
-
 .block10 {
   width:20px; 
   height:220px; 
   position:relative; 
   background-color: black; 
- bottom: 0px;
- margin-left: 210px;
+  bottom: 0px;
+  margin-left: 210px;
 }
-
 .block11 {
   width:40px; 
   height:150px; 
   position:relative; 
   background-color: black; 
- bottom: 0px;
- margin-left: 550px;
+  bottom: 0px;
+  margin-left: 550px;
 }
-
 .block12 {
   width:220px; 
   height:100px; 
   position:relative; 
   background-color: black; 
- bottom: 0px;
- margin-left: 320px;
+  bottom: 0px;
+  margin-left: 320px;
 }
-
 .block13 {
   width:40px; 
   height:300px; 
   position:relative; 
   background-color: whitesmoke; 
- bottom: 0px;
- margin-left: 620px;
+  bottom: 0px;
+  margin-left: 620px;
 }
 .block14 {
   width:100px; 
   height:150px; 
   position:relative; 
   background-color: black; 
- bottom: 0px;
- margin-left: 680px;
+  bottom: 0px;
+  margin-left: 680px;
 }
-
 .block15 {
   width:80px; 
   height:1070px; 
   position:relative; 
   background-color: whitesmoke; 
-opacity: 0.5;
- bottom: 0px;
- margin-left: 980px;
+  opacity: 0.5;
+  bottom: 0px;
+  margin-left: 980px;
 }
-
 .block16 {
   width:20px; 
   height:1070px; 
   position:relative; 
   background-color: whitesmoke; 
-opacity: 0.5;
- bottom: 0px;
- margin-left: 1080px;
-
-
+  opacity: 0.5;
+  bottom: 0px;
+  margin-left: 1080px;
 }
+/*END RECTANGLE BLOCK*/
+
 /*ANIMATION*/
 .block8, .block10, .block12, .block14 {
   animation: slideup 2.5s ;
 }
 
 @keyframes slideup {
-
-0%  {bottom:-700px}
+  0%  {bottom:-700px}
   50% {bottom:60px}
-   100% {bottom:0px}
-
-  }
+  100% {bottom:0px}
+}
 
 .block9,.block11, .block13 {
   animation: slideup1 4s ;
 }
 
 @keyframes slideup1 {
-
-0%  {bottom:-800px}
+  0%  {bottom:-800px}
   50% {bottom:90px}
-   100% {bottom:0px}
+  100% {bottom:0px}
+}
 
-  }
 @keyframes fadein {
-   0% {opacity: 0;}
-   100% {opacity: 1;}
+ 0% {opacity: 0;}
+ 100% {opacity: 1;}
 }
 /*END ANIMATION*/
-/*END:  BOTTOM BLOCKS*/
 
 /*START CUSTOM FONT "WHAT"*/
 /*START W*/
@@ -187,47 +174,48 @@ opacity: 0.5;
 }
 
 .letter-w-top{
-    width:390px; 
-    height:100px;
-    box-shadow: 10px 10px 0 0 white;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 100px;
-    border: 10px solid: black;
-    background-color:  black; 
+  width:390px; 
+  height:100px;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 0 0 white;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 100px;
+  border: 10px solid: black;
+  background-color:  black; 
 }
 .letter-w-middle{
-    width:390px; 
-    height:100px;
-    box-sizing: border-box;
-    box-shadow: 10px 0px 0 0 white;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border: 10px solid: black;
-    background-color:  black;
-    bottom: 150px;
+  width:390px; 
+  height:100px;
+  box-sizing: border-box;
+  box-shadow: 10px 0px 0 0 white;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border: 10px solid: black;
+  background-color:  black;
+  bottom: 150px;
 }
 .letter-w-bottom{
-    width:390px; 
-    height:100px;
-    box-sizing: border-box;
-    box-shadow: 10px 10px 0 0 white;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 100px;
-    border: 10px solid: black;
-    background-color:  black;
-    bottom: 0px;
-    transform: scaleY(-1);
+  width:390px; 
+  height:100px;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 0 0 white;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 100px;
+  border: 10px solid: black;
+  background-color:  black;
+  bottom: 0px;
+  transform: scaleY(-1);
 }
 .letter-w-stem{
-    top: 100px;
-    width: 100px;
-    height: 200px ;
-    box-sizing: border-box;
-    box-shadow: 20px 0 0 -10px white;
-    border: 10px solid: black;
-    background-color:  black;
+  top: 100px;
+  width: 100px;
+  height: 200px ;
+  box-sizing: border-box;
+  box-shadow: 20px 0 0 -10px white;
+  border: 10px solid: black;
+  background-color:  black;
 }
 /*END W*/
 
@@ -236,45 +224,44 @@ opacity: 0.5;
  margin-left: 410px;
 }
 .letter-h-stem {
-    top: 0px;
-    width: 100px;
-    height: 400px ;
-    box-sizing: border-box; 
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 100px;
-    box-shadow: 20px 0 0 -10px white;
-    border: 10px solid:black;
-    background-color: black;      
+  top: 0px;
+  width: 100px;
+  height: 400px ;
+  box-sizing: border-box; 
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 100px;
+  box-shadow: 20px 0 0 -10px white;
+  border: 10px solid:black;
+  background-color: black;      
 }
 .letter-h-stem2{
   top: 0px;
-    left: 190px;
-    width: 100px;
-    height: 400px ;
-    box-sizing: border-box; 
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 100px;
-    box-shadow: 20px 0 0 -10px white;
-    border: 10px solid:black;
-    background-color: black;      
+  left: 190px;
+  width: 100px;
+  height: 400px ;
+  box-sizing: border-box; 
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 100px;
+  box-shadow: 20px 0 0 -10px white;
+  border: 10px solid:black;
+  background-color: black;      
 }
 .letter-h-middle{
   top: 150px;
-    left: 100px;
-    width:90px;
-    height:100px;
-    box-sizing: border-box;
-    box-shadow: 10px 10px 0 0 white;
-    border: 10px solid black;
-    background-color: black;    
+  left: 100px;
+  width:90px;
+  height:100px;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 0 0 white;
+  border: 10px solid black;
+  background-color: black;    
 }
 /* END H */
 
-
 .letter-a{
-   margin-left: 720px;
+ margin-left: 720px;
 }
 /*START A */
 .letter-a-top{
@@ -288,116 +275,119 @@ opacity: 0.5;
   background-color: black ;   
 }
 .letter-a-stem1 {
-    top: 100px;
-    width: 100px;
-    height: 300px ;
-    box-sizing: border-box; 
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 100px;
-    box-shadow: 20px 0 0 -10px white;
-    background-color: black;
-    border: 10px solid black;
+  top: 100px;
+  width: 100px;
+  height: 300px ;
+  box-sizing: border-box; 
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 100px;
+  box-shadow: 20px 0 0 -10px white;
+  background-color: black;
+  border: 10px solid black;
 }
 .letter-a-stem2{
   top: 100px;
-    left: 190px;
-    width: 100px;
-    height: 300px; 
-    box-sizing: border-box; 
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 100px;
-    box-shadow: 20px 0 0 -10px white;
-    background-color: black;
-    border: 10px solid black;
+  left: 190px;
+  width: 100px;
+  height: 300px; 
+  box-sizing: border-box; 
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 100px;
+  box-shadow: 20px 0 0 -10px white;
+  background-color: black;
+  border: 10px solid black;
 }
 .letter-a-middle{
   top: 150px;
-    left: 100px;
-    width:100px;
-    height:100px;
-    box-sizing: border-box;
-    box-shadow: 10px 10px 0 0 white;
-    border: 10px solid black;
-    background-color: black;
+  left: 100px;
+  width:100px;
+  height:100px;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 0 0 white;
+  border: 10px solid black;
+  background-color: black;
 }
 /*END A*/
 
 /*START T */
-
 .letter-t{
-margin-left: 1020px;
+  margin-left: 1020px;
 
 }
 .letter-t-top{
   width:290px; 
-    height:100px;
-    box-sizing: border-box;
-    box-shadow: 10px 10px 0 0 white;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 100px;
-    border: 10px solid black;
-    background-color: black;   
+  height:100px;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 0 0 white;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 100px;
+  border: 10px solid black;
+  background-color: black;   
 }
 .letter-t-stem{
-    top: 100px;
-    left: 90px;
-    width: 100px;
-    height: 300px ;
-    box-sizing: border-box; 
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 100px;
-    box-shadow: 20px 0 0 -10px white;
-    border: 10px solid:black;
-    background-color: black;  
+  top: 100px;
+  left: 90px;
+  width: 100px;
+  height: 300px ;
+  box-sizing: border-box; 
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 100px;
+  box-shadow: 20px 0 0 -10px white;
+  border: 10px solid:black;
+  background-color: black;  
 }
 /*END T*/
+/*END CUSTOM FONT WHAT*/
+
 
 .comes{
   font-size: 50px;
-          margin-bottom: 90px;
-            margin-top: 380px ; 
-            margin-left: 300px; 
-            font-family: 'Lato', sans-serif; 
-              text-shadow: 10px 10px white;
-              animation: fadein 0.5s ease-in-out;
-            
+  margin-bottom: 90px;
+  margin-top: 380px ; 
+  margin-left: 300px; 
+  font-family: 'Lato', sans-serif; 
+  text-shadow: 10px 10px white;
+  animation: fadein 0.5s ease-in-out;
+
 }
 .after{
-          font-size: 50px;
-          margin-bottom: 90px;
-            margin-top: 380px ; 
-            margin-left: 680px; 
-            font-family: 'Lato', sans-serif;
-              text-shadow: 10px 10px white; 
-              animation: fadein 1s ease-in-out;
- 
+  font-size: 50px;
+  margin-bottom: 90px;
+  margin-top: 380px ; 
+  margin-left: 680px; 
+  font-family: 'Lato', sans-serif;
+  text-shadow: 10px 10px white; 
+  animation: fadein 1s ease-in-out;
+
 } 
 
 .the{
   font-size: 50px;
-          margin-bottom: 90px;
-            margin-top: 380px ; 
-            margin-left: 1010px; 
-            font-family: 'Lato', sans-serif;
-              text-shadow: 10px 10px white;  
-              animation: fadein 1.5s ease-in-out;
+  margin-bottom: 90px;
+  margin-top: 380px ; 
+  margin-left: 1010px; 
+  font-family: 'Lato', sans-serif;
+  text-shadow: 10px 10px white;  
+  animation: fadein 1.5s ease-in-out;
   
 }
 .envi{
-    font-size: 50px;
-          margin-bottom: 90px;
-            margin-top: 550px ; 
-            margin-left: 500px; 
-            font-family: 'Righteous', cursive; 
-            text-shadow: 10px 10px black;  
-            color: white;
-            animation: fadein 2s ease-in-out;
+  font-size: 50px;
+  margin-bottom: 90px;
+  margin-top: 550px ; 
+  margin-left: 500px; 
+  font-family: 'Righteous', cursive; 
+  text-shadow: 10px 10px black;  
+  color: white;
+  animation: fadein 2s ease-in-out;
 }
 
+/*END FIRST THML PAGE INDEX.HTML*/
 
-/*SECOND HTML PAGE WEBTYPO.HTML*/
+/*START SECOND HTML PAGE WEBTYPO.HTML*/
 
+/*LAYOUT*/
 .content2{
   width:1000px; 
   height:1100px; 
@@ -406,12 +396,12 @@ margin-left: 1020px;
   margin: auto; 
   box-shadow: 20px 20px 20px 10px grey;
   /*border: 10px solid black;*/
-   animation: fadein 0.5s ease-in;
-  }
-
+  animation: fadein 0.5s ease-in;
+}
 .content2 div{
   position: absolute;
 }
+/*END LAYOUT*/
 
 .block6-2{
  width:850px; 
@@ -422,6 +412,8 @@ margin-left: 1020px;
  right: 0px;
 }
 
+/*START WRITING CONTENTS*/
+
 /*START DATE*/
 .block3 {
   width:290px; 
@@ -429,26 +421,26 @@ margin-left: 1020px;
   position:relative; 
   /*background-image: linear-gradient(black, #8dbfbe);*/
   background-color: white;
- 
+
   margin-top: 250px;
   margin-left: 30px; 
 }
 .date{
-font-size: 20px;
- margin-left: 20px;
- margin-right: 20px;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
   color: black;
   animation: fadein 2.5s ease-in-out;
- font-family: 'PT Serif', serif;
+  font-family: 'PT Serif', serif;
 }
 /*START TICKET*/
 .ticket{
   font-size: 15px;
   font-family: 'PT Serif', serif;
- margin-left: 20px;  
- margin-top: 150px;
- margin-right: 20px;
- color: black;
+  margin-left: 20px;  
+  margin-top: 150px;
+  margin-right: 20px;
+  color: black;
   border: 3px;
   animation: fadein 2.5s ease-in-out;
 }
@@ -456,66 +448,70 @@ font-size: 20px;
 /*END DATE*/
 
 .title{
-   margin-bottom: 90px;
-   font-size: 30px;
-            margin-top: 0px ; 
-            margin-left: 35px; 
-            margin-right: 800px;
-             text-shadow: 10px 10px whitesmoke; 
-              font-family: 'Righteous', cursive;
+ margin-bottom: 90px;
+ font-size: 30px;
+ margin-top: 0px ; 
+ margin-left: 35px; 
+ margin-right: 800px;
+ text-shadow: 10px 10px whitesmoke; 
+ font-family: 'Righteous', cursive;
 }
-
 .subtitle{
-   margin-bottom: 90px;
-   font-size: 20px;
-   margin-top: 0px ; 
-   margin-left: 350px; 
-    margin-right: 200px;
-   font-family: 'PT Serif', serif;
+ margin-bottom: 90px;
+ font-size: 20px;
+ margin-top: 0px ; 
+ margin-left: 350px; 
+ margin-right: 200px;
+ font-family: 'PT Serif', serif;
 }
-
 .section1{
   margin-bottom: 90px;
-   font-size: 20px;
-            margin-top: 330px ; 
-            margin-left: 350px; 
-            margin-right: 200px;
-            font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  margin-top: 330px ; 
+  margin-left: 350px; 
+  margin-right: 200px;
+  font-family: 'Oswald', sans-serif;
 }
 .section2{
   margin-bottom: 90px;
-   font-size: 20px;
-            margin-top: 690px ; 
-            margin-left: 350px; 
-            margin-right: 200px;
-            font-family: 'Oswald', sans-serif;
-
-}
-
-.button2{
-   background-color: white;
-  padding: 15px 30px;
-  text-align: center;
-  text-decoration: none;
   font-size: 20px;
- font-family: 'PT Serif', serif;
-  margin-bottom:120px;
- margin-top: 580px ;
-  margin-left: 50px;
-  cursor: pointer;
-
+  margin-top: 690px ; 
+  margin-left: 350px; 
+  margin-right: 200px;
+  font-family: 'Oswald', sans-serif;
 }
+/*END CONTENT WRITING*/
+
+/*START HOMEPAGE BUTTON*/
+.button2{
+ background-color: white;
+ padding: 15px 30px;
+ text-align: center;
+ text-decoration: none;
+ font-size: 20px;
+ font-family: 'PT Serif', serif;
+ margin-bottom:120px;
+ margin-top: 580px ;
+ margin-left: 50px;
+ cursor: pointer;
+}
+/*END HOMEPAGE BUTTON
+
+START MORE INFO BUTTON*/
 .button3{
   background-color: #d6d6d6;
   padding: 15px 30px;
   text-align: center;
   text-decoration: none;
   font-size: 15px;
- font-family: 'PT Serif', serif;
+  font-family: 'PT Serif', serif;
   margin-bottom:120px;
   bottom: 0px;
   margin-left: 340px;
   cursor: pointer;
- animation: fadein 4s ease-in-out;
+  animation: fadein 4s ease-in-out;
 }
+
+/*END INFO BUTTON*/
+/*END SECOND HTML FILE WEBTYPO.HTML*/
 
