@@ -1,18 +1,17 @@
 .content{
-  width:800px; 
-  height:900px; 
-   background-image: linear-gradient(black, #C9C9D1);
-  box-shadow: 30px 30px 30px -10px #7b7ba7;
-  margin: auto;   
-  position:relative; 
+  width:1330px; 
+  height:1070px; 
+  background-image: linear-gradient(#C9C9D1, #030a17);  
+  position:relative;
+  margin: auto; 
   }
 
 .content div{
   position: absolute;
 }
 
-.block1 {
-  width:400px; 
+/*.block1 {
+  width:1330px; 
   height:450px; 
   background-color: #8dbfbe;  
 }
@@ -24,9 +23,9 @@
   background-color: yellowgreen; 
   margin-left: 400px; 
   margin-top: 250px;
-}
+}*/
 /*START DATE*/
-.block3 {
+/*.block3 {
   width:300px; 
   height:480px; 
   position:relative; 
@@ -45,23 +44,24 @@ font-size: 25px;
   animation: fadein 2.5s ease-in-out;
 }
 
+/*START TICKET*/
+.ticket{
+  font-size: 20px;
+ margin-left: 20px;  
+ margin-top: 200px;
+ margin-right: 20px;
+ color: white;
+  font-family: 'Nunito', sans-serif;
+  animation: fadein 2.5s ease-in-out;
+ */
+}
+/*END TICKET*/
+
 @keyframes fadein {
    0% {opacity: 0;}
    100% {opacity: 1;}
 }
 /*END DATE*/
-
-/*START TICKET*/
-.ticket{
-  font-size: 20px;
- margin-left: 310px;
-  margin-right: 10px;
- margin-top: 680px;
- margin-right: 10px;
-  font-family: 'Nunito', sans-serif;
-  color: black;
-}
-/*END TICKET*/
 
 
 /*START:   STRAIGHT LINES THAT SURROUNDS THE DATE*/
@@ -87,7 +87,7 @@ font-size: 25px;
  height:5px; 
  position:relative; 
  background-color: black; 
- margin-top: 400px;
+ margin-top: 610px;
  margin-left: 280px;
 }
 .block7 {
@@ -95,8 +95,8 @@ font-size: 25px;
  height:5px; 
  position:relative; 
  background-color: black; 
- margin-top: 410px;
- margin-left: 280px;
+ margin-top: 750px;
+ margin-left: 0px;
 }
 
 /* END:  STRAIGHT LINES THAT SURROUNDS THE DATE*/
@@ -115,7 +115,7 @@ font-size: 25px;
   width:90px; 
   height:150px; 
   position:relative; 
-  background-color: black; 
+  background-color: #f2ea78; 
  bottom: 0px;
  margin-left: 10%;
 }
@@ -131,7 +131,7 @@ font-size: 25px;
 
 .block11 {
   width:40px; 
-  height:400px; 
+  height:350px; 
   position:relative; 
   background-color: black; 
  bottom: 0px;
@@ -151,7 +151,7 @@ font-size: 25px;
   width:40px; 
   height:400px; 
   position:relative; 
-  background-color: black; 
+  background-color: #f29778; 
  bottom: 0px;
  margin-left: 620px;
 }
@@ -188,25 +188,227 @@ font-size: 25px;
    100% {bottom:0px}
 
   }
-
-
   /*END ANIMATION*/
 /*END:  BOTTOM BLOCKS*/
 
 
-.what{
+/*WRITING PART
+-----------
+-
+------------
+-
+--
+------------*/
 
-   font-size: 50px;
-   font-family: 'Nunito', sans-serif;
-    margin-bottom: 90px ; 
-    margin-left: 20px;
-         
+
+/*START CUSTOM FONT "WHAT"*/
+/*START W*/
+.letter-w {
+  width:400px; 
+  height:400px; 
+  transform: scaleY(-1) rotate(90deg);
 }
+
+.letter-w-top{
+    width:390px; 
+    height:100px;
+    box-shadow: 10px 10px 0 0 white;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 100px;
+    border: 10px solid: black;
+    background-color:  black; 
+}
+.letter-w-middle{
+    width:390px; 
+    height:100px;
+    box-sizing: border-box;
+    box-shadow: 10px 0px 0 0 white;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: 10px solid: black;
+    background-color:  black;
+    bottom: 150px;
+}
+.letter-w-bottom{
+    width:390px; 
+    height:100px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 0 0 white;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 100px;
+    border: 10px solid: black;
+    background-color:  black;
+    bottom: 0px;
+    transform: scaleY(-1);
+}
+.letter-w-stem{
+    top: 100px;
+    width: 100px;
+    height: 200px ;
+    box-sizing: border-box;
+    box-shadow: 20px 0 0 -10px white;
+    border: 10px solid: black;
+    background-color:  black;
+}
+/*END W*/
+
+/*START H */
+.letter-h{
+width: 50px;
+height: 50px;
+ margin-left: 410px;
+}
+.letter-h-stem {
+    top: 0px;
+    width: 100px;
+    height: 400px ;
+    box-sizing: border-box; 
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 20px 0 0 -10px white;
+    border: 10px solid:black;
+    background-color: black;      
+}
+.letter-h-stem2{
+  top: 0px;
+    left: 190px;
+    width: 100px;
+    height: 400px ;
+    box-sizing: border-box; 
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 20px 0 0 -10px white;
+    border: 10px solid:black;
+    background-color: black;      
+}
+.letter-h-middle{
+  top: 150px;
+    left: 100px;
+    width:90px;
+    height:100px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 0 0 white;
+    border: 10px solid black;
+    background-color: black;    
+}
+/* END H */
+
+
+.letter-a{
+   margin-left: 720px;
+}
+/*START A */
+.letter-a-top{
+  width:290px; 
+  height:100px;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 0 0 white;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+  border: 10px solid black; 
+  background-color: black ;   
+}
+.letter-a-stem1 {
+    top: 100px;
+    width: 100px;
+    height: 300px ;
+    box-sizing: border-box; 
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 20px 0 0 -10px white;
+    background-color: black;
+    border: 10px solid black;
+}
+.letter-a-stem2{
+  top: 100px;
+    left: 190px;
+    width: 100px;
+    height: 300px; 
+    box-sizing: border-box; 
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 20px 0 0 -10px white;
+    background-color: black;
+    border: 10px solid black;
+}
+.letter-a-middle{
+  top: 150px;
+    left: 100px;
+    width:100px;
+    height:100px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 0 0 white;
+    border: 10px solid black;
+    background-color: black;
+}
+/*END A*/
+
+/*START T */
+
+.letter-t{
+margin-left: 1020px;
+
+}
+.letter-t-top{
+  width:290px; 
+    height:100px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 0 0 white;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 100px;
+    border: 10px solid black;
+    background-color: black;   
+}
+.letter-t-stem{
+    top: 100px;
+    left: 90px;
+    width: 100px;
+    height: 300px ;
+    box-sizing: border-box; 
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 20px 0 0 -10px white;
+    border: 10px solid:black;
+    background-color: black;  
+}
+/*END T*/
 
 .comes{
  margin-bottom: 90px;
-            margin-top: 50px ; 
-            margin-right: 100px; 
-            
+            margin-top: 160px ; 
+            margin-left: 100px;             
 }
+.after{
+
+  margin-bottom: 90px;
+            margin-top: 190px ; 
+            margin-left: 100px;   
+}
+.the{
+   margin-bottom: 90px;
+            margin-top: 220px ; 
+            margin-left: 100px;   
+}
+.envi{
+    margin-bottom: 90px;
+            margin-top: 260px ; 
+            margin-left: 100px; 
+}
+
+.subtitle{
+   margin-bottom: 90px;
+            margin-top: 160px ; 
+            margin-left: 10px; 
+            margin-right: 500px;
+}
+
+.section1{
+
+}
+
 
