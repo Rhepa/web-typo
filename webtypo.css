@@ -4,6 +4,7 @@
   background-image: linear-gradient(#C9C9D1, #030a17);  
   position:relative;
   margin: auto; 
+  border: 1px solid black;
   }
 
 .content div{
@@ -64,7 +65,7 @@ font-size: 25px;
 /*END DATE*/
 
 
-/*START:   STRAIGHT LINES THAT SURROUNDS THE DATE*/
+/*START:  THIN BLOCK RECTANGLES*/
 .block4 {
   width:5px; 
   height:490px; 
@@ -94,15 +95,11 @@ font-size: 25px;
  width:520px; 
  height:5px; 
  position:relative; 
- background-color: black; 
+ background-color: white; 
  margin-top: 750px;
  margin-left: 0px;
 }
 
-/* END:  STRAIGHT LINES THAT SURROUNDS THE DATE*/
-
-
-/*START:  BOTTOM BLOCKS*/
 .block8 {
   width:70px; 
   height:250px; 
@@ -115,7 +112,7 @@ font-size: 25px;
   width:90px; 
   height:150px; 
   position:relative; 
-  background-color: #f2ea78; 
+  background-color: white; 
  bottom: 0px;
  margin-left: 10%;
 }
@@ -126,7 +123,7 @@ font-size: 25px;
   position:relative; 
   background-color: black; 
  bottom: 0px;
- margin-left: 22.5%;
+ margin-left: 210px;
 }
 
 .block11 {
@@ -135,7 +132,7 @@ font-size: 25px;
   position:relative; 
   background-color: black; 
  bottom: 0px;
- margin-left: 28%;
+ margin-left: 550px;
 }
 
 .block12 {
@@ -151,7 +148,7 @@ font-size: 25px;
   width:40px; 
   height:400px; 
   position:relative; 
-  background-color: #f29778; 
+  background-color: whitesmoke; 
  bottom: 0px;
  margin-left: 620px;
 }
@@ -163,6 +160,27 @@ font-size: 25px;
  bottom: 0px;
  margin-left: 680px;
 }
+
+.block15 {
+  width:80px; 
+  height:1070px; 
+  position:relative; 
+  background-color: whitesmoke; 
+opacity: 0.5;
+ bottom: 0px;
+ margin-left: 980px;
+}
+
+.block16 {
+  width:20px; 
+  height:1070px; 
+  position:relative; 
+  background-color: whitesmoke; 
+opacity: 0.5;
+ bottom: 0px;
+ margin-left: 1080px;
+}
+
 
 /*ANIMATION*/
 .block8, .block10, .block12, .block14 {
@@ -379,15 +397,17 @@ margin-left: 1020px;
 /*END T*/
 
 .comes{
- margin-bottom: 90px;
-            margin-top: 160px ; 
-            margin-left: 100px;             
+
+  font-size: 50px;
+          margin-bottom: 90px;
+            margin-top: 400px ; 
+            margin-left: 20px;             
 }
 .after{
 
-  margin-bottom: 90px;
+  
             margin-top: 190px ; 
-            margin-left: 100px;   
+            margin-left: 10px;   
 }
 .the{
    margin-bottom: 90px;
